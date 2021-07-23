@@ -8,13 +8,17 @@ Vandalay Industries uses Splunk for their security monitoring and have been expe
 You are tasked with developing searches, custom reports and alerts to monitor Vandalay's security environment in order to protect them from future attacks.
 
 System Requirements
+
 You will be using the Splunk app located in the Ubuntu VM.
 
 Your Objective
+
 Utilize your Splunk skills to design a powerful monitoring solution to protect Vandaly from security attacks.
+
 After you complete the assignment you are asked to provide the following:
 
 Screen shots where indicated.
+
 Custom report results where indicated.
 
 Topics Covered in This Assignment
@@ -53,22 +57,26 @@ DOWNLOAD_MEGABITS
 UPLOAD_MEGABITS
 ratio
 
-Hint: Use the following format when for the table command: | table fieldA  fieldB fieldC
-
+Hint: Use the following format when for the table command: | table fieldA  fieldB fieldC.
 Answer the following questions:
 
 
 **Based on the report created, what is the approximate date and time of the attack?**
- On 2020-02-23 from 14:30:00 to 22:30:00 Approximatly.
 
- ![   ](./Images/)
+On 2020-02-23 from 14:30:00 to 22:30:00 Approximatly.
+
+![Need-for-Speed-4A](./Images/Need-for-Speed-4A.png)
 
 **How long did it take your systems to recover?**
+
 As per log the system start working normally on 2020-02-23 23:30:00
 
- ![   ](./Images/)
+![Need-for-Speed-4B](./Images/Need-for-Speed-4B)
+
+![Need-for-Speed-4B](./Images/Need-for-Speed-4B)
 
 **Step 2: Are We Vulnerable?**
+
 Background:  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
 
 For more information on Nessus, read the following link: https://www.tenable.com/products/nessus
@@ -88,10 +96,15 @@ Create a report that shows the count of critical vulnerabilities from the custom
 The database server IP is 10.11.36.23.
 The field that identifies the level of vulnerabilities is severity.
 
-
+![Are-We-Vulnerable-2-2](./Images/Are-We-Vulnerable-2-2.png)
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
+![Alert-A](./Images/Alert-A.png)
+
+![Alert-B](./Images/Alert-B.png)
+
+![Alert-C](./Images/Alert-C.png)
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
@@ -116,3 +129,10 @@ However, based on the normal average of bad logins vs. attacks, setting a thresh
 **Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered.**
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
+
+![Drawing-the-(base)line](./Images/Drawing-the-(base)line.png)
+
+![Drawing-the-(base)line-3A](./Images/Drawing-the-(base)line-3A.png)
+
+![Drawing-the-(base)line-3B](./Images/Drawing-the-(base)line-3B.png)
+
