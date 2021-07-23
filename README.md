@@ -100,13 +100,14 @@ The field that identifies the level of vulnerabilities is severity.
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
-![Alert-A](./Images/Alert-A.png)
+![Alert-A](./Images/Alert-A.PNG)
 
 
-![Alert-B](./Images/Alert-B.png)
+![Alert-B](./Images/Alert-B.PNG)
 
 
-![Alert-C](./Images/Alert-C.png)
+![Alert-C](./Images/Alert-C.PNG)
+
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
