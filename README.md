@@ -71,9 +71,9 @@ On 2020-02-23 from 14:30:00 to 22:30:00 Approximatly.
 
 As per log the system start working normally on 2020-02-23 23:30:00
 
-![Need-for-Speed-4B](./Images/Need-for-Speed-4B)
+![Need-for-Speed-4B](./Images/Need-for-Speed-4B.png)
 
-![Need-for-Speed-4B](./Images/Need-for-Speed-4B)
+![Need-for-Speed-4B](./Images/Need-for-Speed-4B.png)
 
 **Step 2: Are We Vulnerable?**
 
@@ -102,7 +102,9 @@ Build an alert that monitors every day to see if this server has any critical vu
 
 ![Alert-A](./Images/Alert-A.png)
 
+
 ![Alert-B](./Images/Alert-B.png)
+
 
 ![Alert-C](./Images/Alert-C.png)
 
